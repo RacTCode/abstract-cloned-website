@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+}
+
+.left-nav, .left-nav *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.left-nav{
+    margin-left: 20px;
+}
+
+.right-nav{
+    margin-right: 20px;
+}
+
+.right-nav *{
+    padding: 0px 5px;
+}
+
+.logo{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 40%;
+    box-sizing: border-box;
+}
+
+.logo-name{
+    border-right: 2px solid white;
+    font-weight: bold;
+}
+
+.help:hover{
+    text-decoration: underline;
+}
+
+.abstract-link:hover .logo-name{
+    color: #dadbf1;
+}
+
+.abstract-link:hover .logo{
+    background-color: #dadbf1;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.sign{
+    background-color: #4C5FD5;
+    color: white;
+    border: 1px solid #4C5FD5;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.sign:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
